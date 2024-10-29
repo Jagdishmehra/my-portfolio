@@ -223,6 +223,20 @@ section {
     cursor: pointer;
     height: 2rem;
 }
+.iconExp {
+    margin-inline: 0rem;
+    cursor: pointer;
+    height: 2rem;
+}
+.Expblock{
+        display: flex;
+        width: 9rem;
+        justify-content: start;
+
+}
+.textExp{
+    margin-left: 15px;
+}
 
 .icon:hover {
     height: 2.02rem;
@@ -286,6 +300,7 @@ section {
 
 .about-containers {
     gap: 2rem;
+    flex-wrap: wrap;
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
